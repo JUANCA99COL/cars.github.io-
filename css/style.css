@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+  background: black;
+	font-family: 'Montserrat', sans-serif;
+}
+
+iframe {
+	margin: 40px auto;
+	display: block;
+}
+
+
+.nav-one li {
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+	font-size: 30px;
+}
+
+.list-ul {
+	/* border: 1px solid red; */
+	width: 65%;
+}
+
+.icons {
+	margin: 10px;
+	padding: 10px;
+	font-size: 30px;
+	width: 35%;
+	/* border: 1px solid blue; */
+	float: right;
+}
+
+.nav-one a {
+	color: white;
+	text-decoration: none;
+}
+
+.nav-one a:hover {
+	color: black;
+	background-color: white;
+	border-radius: 25px;
+	padding: 10px;
+}
+
+.menu {
+	color: white;
+	font-size: 50px;
+	cursor: pointer;
+	margin-top: 10px;
+	/* border: 1px solid blue; */
+	float: right;
+	margin-right: 40px;
+}
+
+.menu:hover {
+	color: red;
+}
+
+.logo {
+	color: white;
+	font-size: 45px;
+	margin-top: 10px;
+	margin-right: 40px;
+	cursor: pointer;
+	float: right;
+	/* border: 1px solid blue; */
+	/* text-align: center; */
+}
+
+.second-nav {
+	background: gray;
+	line-height: 60px;
+	width: 100%;
+	/* border: 1px solid red; */
+}
+
+.list-two {
+	list-style: none;
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+
+.second-nav a {
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+
+.second-nav a:hover {
+	color: black;
+	background-color: white;
+	border-radius: 25px;
+	padding: 10px;
+}
+
+.socials {
+	/* border: 1px solid blue; */
+}
+
+.insta {
+	margin-top: 10px;
+	padding: 5px;
+	font-size: 30px;
+	background: white;
+	color: black;
+	cursor: pointer;
+}
+
+.insta:hover {
+	color: blue;
+}
+
+/* nav */
+@media only screen and (max-width: 992px) and (min-width: 320px) {
+	.unorder-list-one {
+		display: none;
+	}
+
+	.menu {
+		font-size: 40px;
+	}
+
+	.logo {
+		font-size: 40px;
+	}
+
+	.nav-one {
+		height: 75px;
+	}
+
+	iframe {
+		display: none;
+	}
+
+	.icons {
+		width: 100%;
+	}
+
+	.logo {
+		margin-left: 40px;
+		float: left;
+	}
+}
